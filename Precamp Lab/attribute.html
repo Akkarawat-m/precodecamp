@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Attribute</title>
+    <style>
+        table, th, td {
+          border: 1px solid black;
+        }
+        </style>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Tag</th>
+                <th>Attribute</th>
+                <th>Usage</th>
+                <th>Comment</th>
+            </tr>
+
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>h</td>
+                <td>global / event</td>
+                <td>ใช้ในการกำหนดรูปแบบของ Heading</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>p</td>
+                <td>global / event</td>
+                <td>ใช้ในการกำหนดรูปแบบของ paragraph</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>div</td>
+                <td>global / event</td>
+                <td>ใช้ในการกำหนดรูปแบบของ Division/session ใน HTML</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>img</td>
+                <td>alt</td>
+                <td>ระบุ Alternate Text</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>height</td>
+                <td>ระบุความสูง</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>size</td>
+                <td>กำหนด size สำหรับ layout ต่าง ๆ</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>src</td>
+                <td>ระบุแหล่งที่มาข้องภาพ</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>width</td>
+                <td>ระบุความกว้างของภาพ</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>a</td>
+                <td>download</td>
+                <td>ดาวน์โหลดไฟล์เมื่อคลิ๊ก</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>href</td>
+                <td>ระบุ URL เป้าหมายเมื่อคลิ๊ก</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>media</td>
+                <td>ระบุสื่อ/อุปกรณ์ที่หน้าที่ลิงค์ไว้ออกแบบมา</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>rel</td>
+                <td>ระบุ Relationship</td>
+                <td>เช่น alternate
+                    author
+                    bookmark
+                    external
+                    help
+                    license
+                    next
+                    nofollow
+                    noreferrer
+                    noopener
+                    prev
+                    search
+                    tag</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>target</td>
+                <td>ระบุว่าจะเปิดลิงค์ที่ไหน</td>
+                <td>เช่น
+                    _blank 
+                    _parent
+                    _self
+                    _top
+                    framename</td>
+            </tr>
+            <tr>
+                <td>ul</td>
+                <td>global / event</td>
+                <td>ใช้กำหนดรูปแบบของ Unorder List</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>ol</td>
+                <td>reversed</td>
+                <td>เรียงลำดับของลิสท์จากมากไปน้อย</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>start</td>
+                <td>กำหนดค่าเริ่มต้นของลิสท์</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Type</td>
+                <td>รูปแบบของคำหน้าลิสท์</td>
+                <td>เช่น 1
+                    A
+                    a
+                    I
+                    i</td>
+            </tr>
+            <tr>
+                <td>table</td>
+                <td>global / event</td>
+                <td>ใช้กำหนดรูปแบบของตาราง</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>form</td>
+                <td>accept-charset</td>
+                <td>กำหนด Encode ของ Character</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>action</td>
+                <td>ระบุว่าจะส่งข้อมูลไปที่ไหนเมื่อกดส่ง</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>autocomplete</td>
+                <td>เติมข้อความอัตโนมัติ</td>
+                <td>on / off</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>enctype</td>
+                <td>ระบุว่าข้อมูลจะเข้ารหัสยังไงเมื่อส่ง</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>method</td>
+                <td>ระุบ HTTP Method</td>
+                <td>GET / POST</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>name</td>
+                <td>รุบชื่อ form</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>novalidate</td>
+                <td>ระบุว่าข้อมูลในฟอร์มไม่ต้องตรวจสอบ</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>rel</td>
+                <td>ระบุความสัมพันธ์ระหว่างแหล่งที่ลิงค์กับเอกสารปัจจุบัน</td>
+                <td>เช่น 	external
+                    help
+                    license
+                    next
+                    nofollow
+                    noopener
+                    noreferrer
+                    opener
+                    prev
+                    search</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>target</td>
+                <td>ระบุปลายทางตอนเปิดฟอร์ม</td>
+                <td>เช่น _blank
+                    _self
+                    _parent
+                    _top</td>
+            </tr>
+            <tr>
+                <td>button</td>
+                <td>autofocus</td>
+                <td>ให้ปุ่มถูกโฟกัสอัตโนมัติตอนโหลดหน้า</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>disabled</td>
+                <td>ปิดปุ่ม</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>form</td>
+                <td>ระบุว่าปุ่มนี้เป็นของฟอร์มไหน</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>formaction</td>
+                <td>ระบุว่าจะส่งข้อมูลจากฟอร์มไปที่ไหนตอน submit</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>formenctype</td>
+                <td>ระบุการเข้ารหัสฟอร์มเมื่อ submit</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>formmethod</td>
+                <td>ระบุว่าจะส่งข้อมูลในฟอร์มยังไงเมื่อ submit</td>
+                <td>เช่น 	get
+                    post</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>formnovalidate</td>
+                <td>ระบุว่าฟอร์มนี้ไม่ต้อง Validate เมื่อ submit</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>formtarget</td>
+                <td>ระบุว่าจะแสดงข้อความตอบโต้ที่ไหนเมื่อ submit</td>
+                <td>เช่น 	_blank
+                    _self
+                    _parent
+                    _top
+                    framename</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>name</td>
+                <td>ระบุชื่อปุ่ม</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>type</td>
+                <td>ประเภทของปุ่ม</td>
+                <td>button
+                    reset
+                    submit</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>value</td>
+                <td>กำหนดค่าเริ่มต้นของปุ่ม</td>
+                <td></td>
+            </tr>
+
+            
+
+        </tbody>
+    </table>
+
+
+
+</body>
+
+</html>
